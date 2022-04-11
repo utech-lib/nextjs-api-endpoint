@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-endpoint",
+  "name": "@u-tech/nextjs-api-endpoint",
   "version": "0.1.0",
   "scripts": {
     "build": "rimraf dist/* && tsc",
@@ -22,5 +22,8 @@
   },
   "peerDependencies": {
     "next": "^12.1.4"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
